@@ -140,7 +140,7 @@ function  cartview (){
     const cart = document.getElementById('carrito');
 
     //limpia el array  cada vez que hago click en el boton comprar y los agrupa por producto
-    cart.innerHTML = '';
+    cart.innerHTML = ' ';
 
     //Elemento contenedor del  carrito
     shoppingCart.forEach ((product, id) =>{
